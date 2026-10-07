@@ -1,0 +1,6 @@
+.detail-wrapper .card p:first-of-type {
+  display: block;
+  -webkit-line-clamp: unset;
+  line-clamp: unset;
+  overflow: visible;
+}

@@ -1,0 +1,41 @@
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+
+  display: flex;
+  justify-content: center;
+}
+.nav-list li {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin: 0.5rem;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.incart {
+  background-color: red;
+  font-size: 1rem;
+  border-radius: 50%;
+
+  width: 20px;
+  height: 20px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.nav-list a:hover {
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}

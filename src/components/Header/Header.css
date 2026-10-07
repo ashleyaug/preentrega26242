@@ -1,0 +1,32 @@
+header {
+    background-color: var(--surface);
+    border-bottom: 4px solid var(--primary);
+    color: var(--primary);
+
+    padding: 1rem 3rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container a {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+}
+
+.logo-container img {
+    width: 100px;
+}
+
+.logo-container span {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+@media (max-width: 700px) {
+    header { padding: 1rem; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+}

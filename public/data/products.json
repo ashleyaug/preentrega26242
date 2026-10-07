@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Titanic",
+    "description": "Jack y Rose son dos jóvenes amantes que cruzan sus destinos en el viaje inaugural del insumergible Titanic.",
+    "price": 1000,
+    "image": "/img/movies/Titanic_poster.png",
+    "genre": "Romance/Aventura"
+  },
+  {
+    "id": 2,
+    "name": "Harry Potter",
+    "description": "Harry es un niño huérfano. Vive con sus tíos, quienes lo tratan muy mal. En su cumpleaños número once, descubre que es un mago.",
+    "price": 1200,
+    "image": "/img/movies/harry_potter_poster.webp",
+    "genre": "Fantasía"
+  },
+  {
+    "id": 3,
+    "name": "Star Wars: Episodio IV",
+    "description": "Un joven granjero sueña con aventuras y una princesa se rebela contra un malvado Imperio.",
+    "price": 1350,
+    "image": "/img/movies/star_wars_poster.jpg",
+    "genre": "Ciencia Ficción/Acción"
+  },
+  {
+    "id": 4,
+    "name": "Jurassic Park",
+    "description": "Un multimillonario crea un parque de atracciones en una isla remota donde habitan dinosaurios clonados a partir de ADN antiguo.",
+    "price": 1100,
+    "image": "/img/movies/jurassic_park_poster.webp",
+    "genre": "Aventura/Ciencia Ficción"
+  },
+  {
+    "id": 5,
+    "name": "Pulp Fiction",
+    "description": "Jules y Vincent, dos asesinos a sueldo con no demasiadas luces, trabajan para el gángster Marsellus Wallace.",
+    "price": 1200,
+    "image": "/img/movies/pulp_fiction_poster.jpg",
+    "genre": "Crimen/Suspenso"
+  },
+  {
+    "id": 6,
+    "name": "Taxi Driver",
+    "description": "Travis Bickle, un exmarine y veterano de la guerra de Vietnam solitario e inestable que sufre de insomnio crónico.",
+    "price": 1500,
+    "image": "/img/movies/taxi_driver_poster.jpg",
+    "genre": "Crimen/Noir"
+  }
+]
