@@ -4,6 +4,9 @@ import { Header } from "./components/Header/Header";
 import { Footer } from "./components/Footer/Footer";
 import { ItemListContainer } from "./components/ItemListContainer/ItemListContainer";
 import { ItemDetailContainer } from "./components/ItemDetailContainer/ItemDetailContainer";
+import { ProductSuccess } from "./components/adminComponents/ProductSuccess";
+import { CartView } from "./components/Cart/CartView";
+import { ProductFormContainer } from "./components/adminComponents/ProductForm/ProductFormContainer";
 
 function App() {
   return (
@@ -12,8 +15,11 @@ function App() {
     <main>
       <Routes>
         <Route path="/" element={<ItemListContainer />}/>
-        <Route path="/cart" element={<h1>Carrito</h1>}/>
+        <Route path="/cart" element={<CartView/>}/>
         <Route path="/product/:id" element={<ItemDetailContainer />}/>
+        {/* ADMIN */}
+        <Route path="/admin" element={<ProductFormContainer />} />
+        <Route path="/admin/products/success/:id" element={<ProductSuccess />} />
       </Routes>
     </main>
     <Footer />
