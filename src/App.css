@@ -182,3 +182,34 @@
     border-right-color: var(--border);
   }
 }
+
+/* Botones de administración con la paleta de la tienda. */
+.login-form .btn,
+.dashboard .btn {
+  display: inline-block;
+  padding: 0.8rem 1rem;
+  background: #123b88;
+  color: #ffda1a;
+  border: 2px solid #ffda1a;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.login-form .btn:hover,
+.dashboard .btn:hover {
+  background: #ffda1a;
+  color: #123b88;
+}
+.login-form .btn:focus-visible,
+.dashboard .btn:focus-visible {
+  outline: 3px solid #ffda1a;
+  outline-offset: 3px;
+}
+.dashboard .action-card:hover:not(.disabled) { color: #123b88; }
+@media (max-width: 700px) {
+  .dashboard { padding: 1rem; }
+  .dashboard-header, .header-actions, .actions-grid { flex-wrap: wrap; }
+  .action-card { min-width: 100%; }
+}

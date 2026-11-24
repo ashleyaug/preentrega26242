@@ -1,0 +1,16 @@
+.admin-header {
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.admin-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.admin-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}

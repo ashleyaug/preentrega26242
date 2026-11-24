@@ -7,11 +7,10 @@ export const CartSummary = () => {
 
   return (
     <>
-      <p>TOTAL A PAGAR:👉 ${total} </p>
-      <button className="btn bg-success primary" disabled>
+      <p>TOTAL A PAGAR: 🤑 ${total} </p>
+      <button className="checkout-button" disabled>
         FINALIZAR COMPRA
       </button>
-      <p>La finalización de compra todavía no está disponible.</p>
     </>
   );
 };

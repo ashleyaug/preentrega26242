@@ -13,7 +13,7 @@ export const ProductSuccess = () => {
       <p>Podes cargar otra haciendo click en el boton.</p>
 
       <div className="success-actions">
-        <Link className="btn bg-success primary" to="/admin">
+        <Link className="btn bg-success primary" to="/admin/products/new">
           Cargar otra pelicula
         </Link>
       </div>

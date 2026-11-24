@@ -1,0 +1,27 @@
+.checkout-button {
+  margin: 1rem;
+  padding: 0.8rem 1rem;
+  background-color: #123b88;
+  color: #ffda1a;
+  border: 2px solid #ffda1a;
+  border-radius: 8px;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.checkout-button:hover:not(:disabled) {
+  background-color: #ffda1a;
+  color: #123b88;
+}
+
+.checkout-button:focus-visible {
+  outline: 3px solid #ffda1a;
+  outline-offset: 3px;
+}
+
+.checkout-button:disabled {
+  cursor: not-allowed;
+}
